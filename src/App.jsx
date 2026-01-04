@@ -1,5 +1,6 @@
 import './App.css'
-import Greeter from './Greeter'
+// import Greeter from './Greeter'
+import PuppyList from './PuppyList'
 
 function App() {
   const puppies = [
@@ -25,7 +26,7 @@ function App() {
   ]
   return (
     <div>
-
+      <PuppyList puppies={puppies} />
     </div>
   )
 }
