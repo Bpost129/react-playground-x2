@@ -1,7 +1,7 @@
 const Puppy = (props) => {
   return (
     <>
-      <h2>This is a puppy component</h2>
+      <h3>{props.puppy.name} is a {props.puppy.age} year old {props.puppy.breed}</h3>
     </>
   )
 }
